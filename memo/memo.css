@@ -1,0 +1,34 @@
+#base {
+  font-family: HanziPen SC;
+  font-size: 3em;
+  background-color: white;
+  border: solid;
+  margin: auto
+}
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  color: black;
+  caption-side: top;
+  padding-left: 0.8em;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 0,5em;
+}
+
+button {
+  font-family: HanziPen SC;
+}
+
+#add-row {
+  margin-left: 41.6rem;
+}
+
+#back {
+  background-color: lightblue;
+}

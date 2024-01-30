@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="memo.css">
+  <title>メモ</title>
+</head>
+<body id="back">
+  <table id="base">
+    <caption id="memo">
+      Memo
+    </caption>
+  <tr class="heading">
+    <th scopee="col">タイトル</th>
+    <th scope="col">内容</th>
+    <th scope="col">日付</th>
+  </tr>
+  <tr>
+    <th scope="row" contenteditable="true"></th>
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+  </tr>
+  <tr>
+    <th scope="row" contenteditable="true"></th>
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+  </tr>
+  <tr>
+    <th scope="row" contenteditable="true"></th>
+    <td contenteditable="true"></td>
+    <td contenteditable="true"></td>
+  </tr>    
+  </table>
+  <button id="add-row">+ 行を追加</button>
+  <button onclick="deleteRow()">- 行を削除</button>
+  <script src="memo.js"></script>
+</body>
+</html>
